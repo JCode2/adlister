@@ -1,33 +1,36 @@
+import javax.print.DocFlavor;
+
 /**
  * Created by joshua on 12/15/16.
  */
 public class Config {
+    String url;
+    String user;
+    String password;
 
-    public string getUrl() {
+    public String getUrl() {
         return url;
     }
 
-    public void setUrl(string url) {
+    public void setUrl(String url) {
         this.url = url;
     }
 
-    public string getUser() {
+    public String getUser() {
         return user;
     }
 
-    public void setUser(string user) {
+    public void setUser(String user) {
         this.user = user;
     }
 
-    public string getPassword() {
+    public String getPassword() {
         return password;
     }
 
-    public void setPassword(string password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 
-    string url;
-    string user;
-    string password;
+
 }
