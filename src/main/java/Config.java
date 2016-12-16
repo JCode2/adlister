@@ -4,9 +4,9 @@ import javax.print.DocFlavor;
  * Created by joshua on 12/15/16.
  */
 public class Config {
-    String url;
-    String user;
-    String password;
+    static String url;
+    static String user;
+    static String password;
 
     public String getUrl() {
         return url;
